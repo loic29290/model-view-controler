@@ -1,0 +1,28 @@
+body {
+    background-color: skyblue;
+    margin:0px;
+}
+
+
+body>nav{
+    display:flex;
+    justify-content:space-evenly;
+    height:50px;
+    align-items:center;
+}
+
+h1{
+    display:flex;
+    justify-content:space-evenly;
+    color:yellow;
+}
+
+#assos{
+    text-align:center;
+   
+}
+
+#formulaire {
+    background-color:red;
+display:flex;    
+}

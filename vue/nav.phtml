@@ -1,0 +1,10 @@
+<nav>
+    <a href="index.php?page=formulaire_asso">Ajouter une association</a>
+    <a href="index.php?page=assos">Liste des associations</a>
+<?php if (isset($_SESSION['ID'])) { ?>
+    <a href="index.php?page=disconnect">Déconnexion</a>
+<?php } else { ?>
+    <a href="index.php?page=login">Connexion</a>
+    <a href="index.php?page=subscribe">Inscription</a>
+<?php } ?>
+</nav>
